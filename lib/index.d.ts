@@ -1,6 +1,6 @@
-import multer = require('multer');
-import { StorageOptions } from '@google-cloud/storage';
-import { Request } from 'express';
+import multer = require("multer");
+import { StorageOptions } from "@google-cloud/storage";
+import { Request } from "express";
 export default class MulterGoogleCloudStorage implements multer.StorageEngine {
     private gcsBucket;
     private gcsStorage;
